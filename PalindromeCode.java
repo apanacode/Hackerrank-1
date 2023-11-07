@@ -9,7 +9,7 @@ class PalindromeCode {
         sentence = sentence + ' ';
 
         for (int i = 0; i < sentence.length(); i++) {
-            Char ch = sentence.charAt(i);
+            char ch = sentence.charAt(i);
             if (ch != ' ') {
                 word += ch;
             } else {
